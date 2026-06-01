@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+ios/Pods/
+
+# Build output
+dist/
+*.js.map
+*.d.ts.map
+*.js
+!backend/index.js
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Raw simulation run artifacts (keep eval/ snapshots only)
+backend/detection_results_*.json
+
+# Logs
+*.log
+/tmp/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
